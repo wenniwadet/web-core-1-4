@@ -39,7 +39,7 @@ button {
   padding: 18px 0 32px 0;
   position: fixed;
   width: 320px;
-  height: 100vh;
+  height: 100%;
   background-color: white;
   box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02),
     16px 0px 52px rgba(14, 24, 80, 0.2);
@@ -47,6 +47,9 @@ button {
 
 .burger-menu__container {
   padding: 0 16px 0 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 /* BURGER-MENU  ------  HEADER  */
@@ -105,6 +108,9 @@ button {
 }
 
 /* BURGER-MENU  ------ FOOTER  */
+.burger-footer {
+  margin-top: auto;
+}
 
 .btn-container {
   display: flex;
